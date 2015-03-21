@@ -34,6 +34,7 @@ app.use(function*(next) {
 })
 
 // add status (hackish) -----------------------
+// open to suggestions of a better way here
 app.use(function*(next) {
   try {
     yield next
