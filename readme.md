@@ -5,6 +5,7 @@ This is a boilerplate project showcasing a fully-functional hello-world SPA buil
  * Target server platform: io.js
  * Language: es6
  * Transpilation: babel
+ * Bundling and import strategy: browserify
  * Server-side framework: koa
  * Client-side framework: react
  * Build tooling: gulp
