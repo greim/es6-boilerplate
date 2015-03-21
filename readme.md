@@ -1,4 +1,4 @@
-# React, iojs, koa, gulp, browserify, ES6, babel, boilerplate project.
+# React, iojs, koa, gulp, browserify, ES6, babel, boilerplate SPA.
 
 This is a boilerplate project showcasing a fully-functional hello-world SPA; including both the server side (koa) and the client side (react), plus a bunch of tooling and in-between stuff (gulp, etc). It uses a combination of technologies that others may or may not be like. That's okay. This isn't supposed to be the end-all of technology stacks, just a snapshot of things that I've been messing around with lately. I'll likely be changing my mind constantly about these decisions and updating this project as the winds of technology change, because that's how I roll.
 
