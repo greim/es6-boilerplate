@@ -14,7 +14,7 @@
   "main": "index.js",
   "scripts": {},
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel": "^4.7.16",
     "deep-freeze": "0.0.1",
