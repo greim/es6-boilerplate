@@ -1,6 +1,6 @@
 
 /*
- * Okay, here's the actual gulpfile logic.
+ * Okay, here's the actual gulpfile logic, written in es6 (yay).
  */
 
 'use strict'
@@ -12,7 +12,7 @@ import babelify from 'babelify'
 import watchify from 'watchify'
 import browserify from 'browserify'
 import props from 'lib/props'
-import app from './server'
+import app from './app'
 
 /*
  * These tools are reusable to allow

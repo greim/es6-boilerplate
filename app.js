@@ -1,4 +1,11 @@
 
+/*
+ * Here's our main server app. This doesn't actually
+ * run a server, it just exports a koa app that can
+ * be run from anywhere, for example from gulp for dev,
+ * or from a special runner script in deployment.
+ */
+
 'use strict'
 
 import koa from 'koa'

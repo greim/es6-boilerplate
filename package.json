@@ -1,7 +1,8 @@
 {
   "name": "blank-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate project that can be grown into a bigger project.",
+  "keywords": ["koa","es6","gulp","babel","react","browserify","iojs"],
   "main": "index.js",
   "scripts": {},
   "author": "",
