@@ -31,3 +31,15 @@ I'm using this as a reference point and a proving ground for new tech. I might c
  * Yeoman- or rails-like configurable scaffolding for new projects.
  * Covering every possible nice-to-have use case.
 
+## How does one run this project?
+
+ 1. Have `io.js` installed.
+ 1. Have `gulp` installed.
+ 1. Clone this repo to `$REPO`.
+ 1. Stand in `$REPO` and type `npm install`.
+ 1. Stand in `$REPO` and type `gulp`.
+ 1. Visit http://localhost:8888 in your browser.
+
+
+
+
