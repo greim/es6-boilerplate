@@ -77,7 +77,7 @@ gulp.task('default', ['js', 'css'], done => {
 })
 
 gulp.task('js', bundleTools.js({
-  entryPoint: './node_modules/lib/main.js',
+  entryPoint: './node_modules/lib/main.jsx',
   destDir: './static/js',
   outputFileName: 'main.js'
 }))

@@ -13,7 +13,8 @@
     "koa": "^0.18.1",
     "koa-static": "^1.4.9",
     "lodash": "^3.5.0",
-    "minimatch": "^2.0.4"
+    "minimatch": "^2.0.4",
+    "react": "^0.13.1"
   },
   "devDependencies": {
     "browserify": "^9.0.3",
