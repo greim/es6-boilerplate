@@ -9,7 +9,7 @@ I use this as a reference point and a proving ground for building SPAs in io.js.
 ## What are the design goals?
 
  * **ES6** - ES6 is fun(ner than ES<=5). I want to be able to use ES6 *throughout* the project; server-side, client-side, even the in gulpfile.
- * **Sane imports** - Basically I don't want intra-module references to be path-like, e.g. `./lib/thing` or `../../../thing`. To signal what's a local module and what isn't, I want local modules to be prefixed with "lib". Thus, intra-module references will look like for example `import thing from lib/thing`.
+ * **Sane imports** - Basically I don't want intra-module references to be path-like, e.g. `./lib/thing` or `../../../thing`. To signal what's a local module and what isn't, I want local modules to be prefixed with "lib". Thus, intra-module references will look like for example `import thing from 'lib/thing'`.
  * **Use generators** - I want to use generators for async flow control. It's a huge improvement over the way we write asynchronous JS, but on the other hand it's a hackish stand-in until we have async/await. If/when koa starts supporting async/await out of the box (does it yet?) I'll likely update this project accordingly.
  * **Bleeding-edge** - This is a way for me to learn and experiment with the bleeding-edge of the io.js software ecosystem. Express, Node <= 0.12, Backbone.js, callbacks, are all ancient history from the POV of this project.
  * **Learning** - I want to learn not just from building this, but from feedback and criticism from others about how it's built. I hope others can learn from it too.
