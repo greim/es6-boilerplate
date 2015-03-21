@@ -13,7 +13,7 @@ This is a boilerplate project showcasing a fully-functional—but MINIMAL—hell
 
 ## What is this supposed to be?
 
-A reference point and a proving ground for new tech. I might clone it when I start new projects for example. I thought maybe other people would find it instructive/useful also. If you see room for improvement, file an issue!
+A reference point and a proving ground for new tech. I might borrow from it when I start new projects for example. I thought maybe other people would find it instructive/useful also. If you see room for improvement, file an issue!
 
 ## Design goals
 
