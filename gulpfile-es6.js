@@ -21,11 +21,7 @@ import app from './app'
 const bundleTools = (() => {
 
   function jsError(err) {
-    if (err.lineNumber) {
-      console.error('%s in %s, line %d, column %d', err.description, err.fileName, err.lineNumber, err.column)
-    } else {
-      console.error(err.stack)
-    }
+    console.log(err.message)
     process.exit(1);
   }
 
@@ -44,8 +40,8 @@ const bundleTools = (() => {
         function bundle() {
           console.log('compiling less %s -> %s', opts.entryPoint, opts.destDir);
           return gulp.src(opts.entryPoint)
-          .on('error', cssError)
           .pipe(less(lessOpts))
+          .on('error', cssError)
           .pipe(gulp.dest(opts.destDir))
         }
         /*
@@ -73,9 +69,8 @@ const bundleTools = (() => {
 
         function bundle() {
           console.log('compiling js %s -> %s', opts.entryPoint, opts.destDir)
-          const bundling = bundler.bundle()
-          bundling.on('error', jsError)
-          return bundling
+          return bundler.bundle()
+          .on('error', jsError)
           .pipe(source(opts.outputFileName))
           .pipe(gulp.dest(opts.destDir))
         }
