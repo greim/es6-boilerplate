@@ -1,4 +1,8 @@
 
+/*
+ * Okay, here's the actual gulpfile logic.
+ */
+
 'use strict'
 
 import gulp from 'gulp'
@@ -10,6 +14,10 @@ import browserify from 'browserify'
 import props from 'lib/props'
 import app from './server'
 
+/*
+ * These tools are reusable to allow
+ * calling with different options.
+ */
 const bundleTools = (() => {
 
   function jsError(err) {
@@ -86,9 +94,5 @@ gulp.task('css', bundleTools.css({
   entryPoint: './less/main.less',
   destDir: './static/css'
 }))
-
-
-
-
 
 

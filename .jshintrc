@@ -87,6 +87,11 @@
         "require": true,
         "process": true,
         "module": true,
-        "__dirname": true
+        "__dirname": true,
+        "setImmediate": true,
+        "setTimeout": true,
+        "clearTimeout": true,
+        "setInterval": true,
+        "clearInterval": true
     }
 }
