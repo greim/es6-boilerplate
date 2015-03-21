@@ -2,14 +2,14 @@
 
 This is a boilerplate project showcasing a fully-functional—but MINIMAL—hello-world single-page-app built using high technology.
 
- * Target server platform: io.js
- * Language: es6
- * Transpilation: babel
- * Bundling and import strategy: browserify
- * Server-side framework: koa
- * Client-side framework: react
- * Build tooling: gulp
- * CSS dialect: less
+ * Target server platform: io.js - https://iojs.org/en/index.html
+ * Language: es6 - http://www.2ality.com/2014/08/es6-today.html
+ * Transpilation: babel - https://babeljs.io/
+ * Bundling and import strategy: browserify - http://browserify.org/
+ * Server-side framework: koa - http://koajs.com/
+ * Client-side framework: react - http://facebook.github.io/react/
+ * Build tooling: gulp - http://gulpjs.com/
+ * CSS dialect: less - http://lesscss.org/
 
 ## What is this supposed to be?
 
