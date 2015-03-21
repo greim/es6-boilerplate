@@ -1,3 +1,6 @@
+// --------------------------------------------------------
+// Copyright (c) 2015 by Greg Reimer <gregreimer@gmail.com>
+// MIT License. See mit-license.txt for more info.
 
 /*
  * Here's our main server app. This doesn't actually

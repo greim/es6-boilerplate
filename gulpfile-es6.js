@@ -1,3 +1,6 @@
+// --------------------------------------------------------
+// Copyright (c) 2015 by Greg Reimer <gregreimer@gmail.com>
+// MIT License. See mit-license.txt for more info.
 
 /*
  * Okay, here's the actual gulpfile logic, written in es6 (yay).
