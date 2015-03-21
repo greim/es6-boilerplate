@@ -2,7 +2,7 @@
 
 This is a boilerplate project showcasing a fully-functional—but MINIMAL—hello-world single-page-app built using high technology.
 
- * **io.js**: Server platform. https://iojs.org/en/index.html
+ * **io.js**: Server platform. https://iojs.org/
  * **es6**: Language. http://www.2ality.com/2014/08/es6-today.html
  * **babel**: Transpilation. https://babeljs.io/
  * **browserify**: Bundling and import strategy. http://browserify.org/
