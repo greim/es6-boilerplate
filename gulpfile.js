@@ -3,7 +3,7 @@
 
 var patt = /x/
 
-// this is a god-awful hack that i need to find a better way
+// this is a god-awful hack that future babel versions should alleviate
 
 patt.test = function(str){
   return str !== __dirname + '/gulpfile-es6.js'

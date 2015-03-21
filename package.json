@@ -9,7 +9,9 @@
   "dependencies": {
     "babel": "^4.7.16",
     "deep-freeze": "0.0.1",
+    "handlebars": "^3.0.0",
     "koa": "^0.18.1",
+    "koa-static": "^1.4.9",
     "lodash": "^3.5.0",
     "minimatch": "^2.0.4"
   },
