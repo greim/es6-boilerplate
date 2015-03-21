@@ -18,7 +18,7 @@ I'm using this as a reference point and a proving ground for new tech. I might c
 ## Design goals
 
  * **ES6** - ES6 everywhere.
- * **Sane imports** - `import thing from lib/thing`, never `./lib/thing` or `../../../thing`.
+ * **Sane imports** - `import thing from 'lib/thing'`, never `'./lib/thing'` or `'../../../thing'`.
  * **Eliminate callbacks** - Use generators, or even better async/await, for async flow control.
  * **Bleeding-edge** - Not all will agree, but I think messing with new toys is fun.
  * **Learning and sharing** - Thought others might get a kick out of this.
