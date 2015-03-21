@@ -1,0 +1,24 @@
+{
+  "name": "blank-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "deep-freeze": "0.0.1",
+    "koa": "^0.18.1",
+    "lodash": "^3.5.0",
+    "minimatch": "^2.0.4"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.2",
+    "vinyl-source-stream": "^1.1.0",
+    "babelify": "^5.0.4",
+    "watchify": "^2.4.0"
+  }
+}
