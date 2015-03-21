@@ -2,7 +2,15 @@
   "name": "blank-project",
   "version": "1.0.0",
   "description": "Boilerplate project that can be grown into a bigger project.",
-  "keywords": ["koa","es6","gulp","babel","react","browserify","iojs"],
+  "keywords": [
+    "koa",
+    "es6",
+    "gulp",
+    "babel",
+    "react",
+    "browserify",
+    "iojs"
+  ],
   "main": "index.js",
   "scripts": {},
   "author": "",
@@ -18,11 +26,11 @@
     "react": "^0.13.1"
   },
   "devDependencies": {
+    "babelify": "^5.0.4",
     "browserify": "^9.0.3",
     "gulp": "^3.8.11",
     "gulp-less": "^3.0.2",
     "vinyl-source-stream": "^1.1.0",
-    "babelify": "^5.0.4",
     "watchify": "^2.4.0"
   }
 }

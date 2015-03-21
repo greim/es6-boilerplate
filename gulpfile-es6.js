@@ -46,9 +46,18 @@ const bundleTools = (() => {
           return gulp.src(opts.entryPoint)
           .on('error', cssError)
           .pipe(less(lessOpts))
-          .pipe(gulp.dest(opts.destDir));
+          .pipe(gulp.dest(opts.destDir))
         }
-        gulp.watch(opts.watchGlob, bundle);
+        /*
+         * So there's a nasty issue preventing gulp watch
+         * from working in ES6 due to some outdated libs
+         * in play. Commenting out watch as a workaround,
+         * but hopefully the libs will update themselves
+         * and eliminate the issue. Until then you need to
+         * restart server for CSS to update :(
+         * https://github.com/zloirock/core-js/issues/34
+         */
+        //gulp.watch(opts.watchGlob, bundle)
         return bundle();
       }
     },
@@ -92,7 +101,8 @@ gulp.task('js', bundleTools.js({
 
 gulp.task('css', bundleTools.css({
   entryPoint: './less/main.less',
-  destDir: './static/css'
+  destDir: './static/css',
+  watchGlob: './less/**/*.less'
 }))
 
 

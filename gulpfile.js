@@ -17,7 +17,7 @@ var patt = /x/
 patt.test = function(str){
   return str !== __dirname + '/gulpfile-es6.js'
     && !str.startsWith(__dirname + '/node_modules/lib/')
-    && str !== __dirname + '/server.js'
+    && str !== __dirname + '/app.js'
 }
 
 require('babel/register')({
