@@ -24,6 +24,9 @@ import app from './app'
 const bundleTools = (() => {
 
   function jsError(err) {
+    // https://github.com/substack/node-resolve/issues/60
+    // when a module isn't found it fails to show the file name
+    // hopefully this gets fixed soon
     console.log(err.message)
     process.exit(1);
   }
