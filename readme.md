@@ -1,6 +1,7 @@
-# React, iojs, koa, gulp, browserify, ES6, babel, boilerplate SPA.
+ES6 boilerplate SPA.
 
-This is an annotated, end-to-end showcase for a fully-functional-but-minimal hello-world single-page-app built using modern tech:
+This is an annotated, end-to-end showcase for a fully-functional (but minimal) hello-world webapp.
+Technologies used:
 
  * **io.js**: Server platform. https://iojs.org/
  * **es6**: Language. http://www.2ality.com/2014/08/es6-today.html
@@ -13,7 +14,11 @@ This is an annotated, end-to-end showcase for a fully-functional-but-minimal hel
 
 ## Why?
 
-I wanted a reference and a proving ground for new tech. I might borrow from it when I start new projects for example. I thought maybe other people would find it instructive/useful also. If you see room for improvement, issues and PRs welcome.
+Most great libs and frameworks have great docs that answer the question *How do you use this?*
+But when it comes to fitting all these pieces together, there isn't much out there.
+So I set out to illustrate *one way* that the pieces could fit together.
+I might borrow from this when I start new projects, and update it when I learn new things.
+I thought maybe other people would find it instructive/useful also.
 
 ## Design goals
 
