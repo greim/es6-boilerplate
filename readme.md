@@ -1,4 +1,4 @@
-ES6 boilerplate SPA.
+# ES6 boilerplate SPA.
 
 This is an annotated, end-to-end showcase for a fully-functional (but minimal) hello-world webapp.
 Technologies used:
