@@ -16,7 +16,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "babel": "^4.7.16",
+    "babel": "^5.2.17",
+    "babelify": "^6.0.2",
     "deep-freeze": "0.0.1",
     "handlebars": "^3.0.0",
     "koa": "^0.18.1",
@@ -26,8 +27,7 @@
     "react": "^0.13.1"
   },
   "devDependencies": {
-    "babelify": "^5.0.4",
-    "browserify": "^9.0.3",
+    "browserify": "^9.0.8",
     "gulp": "^3.8.11",
     "gulp-less": "^3.0.2",
     "vinyl-source-stream": "^1.1.0",
